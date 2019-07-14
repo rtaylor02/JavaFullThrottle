@@ -3,6 +3,8 @@ Files associated with my live training course "Java® Full Throttle: A One-Day, 
 
   https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920281535/
   
+  https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920294290/
+  
 I'll keep this repository up-to-date with any changes I make for future presentations. 
 
 These files are for your personal use and may not be redistributed or reposted.
