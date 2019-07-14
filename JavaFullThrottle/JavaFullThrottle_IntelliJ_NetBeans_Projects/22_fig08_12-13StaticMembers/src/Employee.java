@@ -30,7 +30,7 @@ public class Employee {
 
    // static method to get static count value
    public static int getCount() {            
-      return count;                          
+      return count;                        
    } 
 } 
 

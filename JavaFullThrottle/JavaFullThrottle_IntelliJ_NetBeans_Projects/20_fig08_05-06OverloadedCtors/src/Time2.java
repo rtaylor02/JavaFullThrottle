@@ -112,6 +112,7 @@ public class Time2 {
    } 
 
    // convert to String in standard-time format (H:MM:SS AM or PM)
+   @Override 
    public String toString() {
       return String.format("%d:%02d:%02d %s", 
          ((getHour() == 0 || getHour() == 12) ? 12 : getHour() % 12),

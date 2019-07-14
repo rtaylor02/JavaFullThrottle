@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-            <name>10_fig06_08Craps</name>
+            <name>10_fig06_08Craps_IF_TIME</name>
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
