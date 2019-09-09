@@ -16,7 +16,7 @@ public class Scope {
       useField(); // useField uses class Scope's field x
       useLocalVariable(); // useLocalVariable reinitializes local x
       useField(); // class Scope's field x retains its value
-
+      
       System.out.printf("%nlocal x in main is %d%n", x);
    } 
 
