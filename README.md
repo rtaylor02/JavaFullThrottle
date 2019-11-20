@@ -1,10 +1,12 @@
 # JavaFullThrottle
 Files associated with my live training course "Java® Full Throttle: A One-Day, Code-Intensive Java Standard Edition Presentation"
 
-  https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920281535/
-  
-  https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920294290/
-  
+The links below will take you to the course page. If you registered/attended that session, that page is where you can access the archived video.
+* June 3, 2019: https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920281535/
+* July 16, 2019: https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920294290/
+* September 10, 2019: https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920306030/
+* November 5, 2019: https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920322313/
+
 I'll keep this repository up-to-date with any changes I make for future presentations. 
 
 These files are for your personal use and may not be redistributed or reposted.
