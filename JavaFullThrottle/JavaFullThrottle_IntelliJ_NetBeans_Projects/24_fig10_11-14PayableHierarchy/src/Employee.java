@@ -35,6 +35,7 @@ public abstract class Employee implements Payable {
 
    // implementing getPaymentAmount here enables the entire Employee
    // class hierarchy to be used in an app that processes Payables  
+   @Override
    public double getPaymentAmount() {return earnings();}            
 } 
 

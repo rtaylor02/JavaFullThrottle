@@ -13,7 +13,7 @@ public class MethodOverload {
       System.out.printf("%nCalled square with int argument: %d%n",
          intValue);                                               
       return intValue * intValue;                                 
-   } 
+   }
  
    // square method with double argument                             
    public static double square(double doubleValue) {

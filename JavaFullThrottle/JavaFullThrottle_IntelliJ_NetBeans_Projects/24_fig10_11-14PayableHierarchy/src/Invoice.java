@@ -1,7 +1,7 @@
 // Fig. 10.12: Invoice.java
 // Invoice class that implements Payable.
 
-public class Invoice implements Payable {
+public class Invoice extends Object implements Payable {
    private final String partNumber; 
    private final String partDescription;
    private final int quantity;

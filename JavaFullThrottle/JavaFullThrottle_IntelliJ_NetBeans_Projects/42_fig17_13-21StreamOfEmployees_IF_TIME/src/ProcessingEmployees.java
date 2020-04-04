@@ -25,7 +25,8 @@ public class ProcessingEmployees {
 
       // display all Employees
       System.out.println("Complete Employee list:");
-      list.stream().forEach(System.out::println);
+      list.stream()
+          .forEach(System.out::println);
       
       // Predicate that returns true for salaries in the range $4000-$6000
       Predicate<Employee> fourToSixThousand =                  
