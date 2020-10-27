@@ -7,6 +7,7 @@ The links below will take you to the course page. If you registered/attended tha
 * September 10, 2019: https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920306030/
 * November 5, 2019: https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920322313/
 * April 7, 2020: https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920375654/
+* October 27, 20202: https://learning.oreilly.com/live-training/courses/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920418757/ 
 
 I'll keep this repository up-to-date with any changes I make for future presentations. 
 
