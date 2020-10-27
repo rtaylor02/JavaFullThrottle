@@ -17,11 +17,13 @@ public class SwitchExpressionDemo {
             to specify the case's value.
          6. Cases support individual values or comma-separated lists of values
             of integer types, enum types or Strings.
-         7. Eventually, there will be pattern matching support. See
+         7. https://openjdk.java.net/jeps/361 and 
+            https://docs.oracle.com/en/java/javase/14/language/switch-expressions.html
+         8. Eventually, there will be pattern matching support. See
             http://cr.openjdk.java.net/~briangoetz/amber/pattern-match.html 
-         8. More future language enhancements: https://openjdk.java.net/projects/amber/
+         9. More future language enhancements: https://openjdk.java.net/projects/amber/
       */
-      String letterGrade = switch(grade / 10) {
+      String letterGrade = switch (grade / 10) {
          case 9, 10 -> "A";
          case 8 -> "B";
          case 7 -> "C";
@@ -32,9 +34,7 @@ public class SwitchExpressionDemo {
          }
       };
       
-      System.out.printf("Letter grade: %s%n", letterGrade);
-      
-      
+      System.out.printf("Letter grade: %s%n", letterGrade);      
    }
 }
 

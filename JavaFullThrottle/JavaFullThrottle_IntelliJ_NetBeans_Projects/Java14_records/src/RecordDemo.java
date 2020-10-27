@@ -5,7 +5,8 @@
    1. Data-only classes. Syntax could change.
    2. Autogenerates constructor, toString, hashCode, equals and get methods
       with the same names as the data items.
-   3. More future language enhancements: https://openjdk.java.net/projects/amber/
+   3. https://openjdk.java.net/jeps/384
+   4. More future language enhancements: https://openjdk.java.net/projects/amber/
 */
 record Employee(
         String firstName, 

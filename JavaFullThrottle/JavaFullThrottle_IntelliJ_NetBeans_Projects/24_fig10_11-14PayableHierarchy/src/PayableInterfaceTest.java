@@ -18,7 +18,7 @@ public class PayableInterfaceTest {
       for (Payable currentPayable : payableObjects) {
          // output currentPayable and its appropriate payment amount
          System.out.printf("%n%s %npayment due: $%,.2f%n", 
-            currentPayable.toString(), // could invoke implicitly
+            currentPayable, // could invoke implicitly
             currentPayable.getPaymentAmount()); 
       } 
    } 

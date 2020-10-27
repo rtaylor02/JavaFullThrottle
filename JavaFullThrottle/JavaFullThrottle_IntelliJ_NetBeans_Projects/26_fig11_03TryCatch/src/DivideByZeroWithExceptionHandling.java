@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class DivideByZeroWithExceptionHandling
 {
    // demonstrates throwing an exception when a divide-by-zero occurs
-   public static int quotient(int numerator, int denominator)
-      throws ArithmeticException {
+   public static int quotient(int numerator, int denominator) throws ArithmeticException {
       return numerator / denominator; // possible division by zero
    } 
 
@@ -31,12 +30,12 @@ public class DivideByZeroWithExceptionHandling
             System.err.printf("%nException: %s%n",                       
                inputMismatchException);                                  
             scanner.nextLine(); // discard input so user can try again    
-            System.out.printf(                                          
+            System.err.printf(                                          
                "You must enter integers. Please try again.%n%n");          
          }                                                              
          catch (ArithmeticException arithmeticException) {              
             System.err.printf("%nException: %s%n", arithmeticException);
-            System.out.printf(                                          
+            System.err.printf(                                          
                "Zero is an invalid denominator. Please try again.%n%n");   
          }                                                              
       } while (continueLoop);                                           

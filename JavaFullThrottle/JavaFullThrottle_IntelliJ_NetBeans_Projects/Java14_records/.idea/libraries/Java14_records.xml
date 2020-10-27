@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Java14_records">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/Java14_records.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
