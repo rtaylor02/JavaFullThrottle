@@ -2,7 +2,7 @@
 // HashSet used to remove duplicate values from array of strings.
 import java.util.List;
 import java.util.Arrays;
-import java.util.HashSet;
+import java.util.TreeSet;
 import java.util.Set;
 import java.util.Collection;
 
@@ -21,7 +21,7 @@ public class SetTest {
    // create a Set from a Collection to eliminate duplicates
    private static void printNonDuplicates(Collection<String> values) {
       // create a HashSet 
-      Set<String> set = new HashSet<>(values);
+      Set<String> set = new TreeSet<>(values);
 
       System.out.printf("%nNonduplicates are: ");
 

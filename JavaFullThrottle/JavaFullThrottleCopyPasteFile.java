@@ -85,7 +85,48 @@ do {
    ++counter;                         
 } while (counter <= 10);              
 
+int grade = 77;
 
+// switch
+switch (grade / 10) {                          
+   case 9:  // grade was between 90              
+   case 10: // and 100, inclusive                
+      System.out.println("Grade is A")                               
+      break; // exits switch                  
+   case 8: // grade was between 80 and 89        
+      System.out.println("Grade is B")                               
+      break; // exits switch                      
+   case 7: // grade was between 70 and 79        
+      System.out.println("Grade is C")                               
+      break; // exits switch                      
+   case 6: // grade was between 60 and 69        
+      System.out.println("Grade is D")                               
+      break; // exits switch                      
+   default: // grade was less than 60            
+      System.out.println("Grade is F")                               
+      break; // optional; exits switch anyway 
+}
+
+String grade = "A";
+
+// switch
+switch (grade) {                          
+   case "A":                
+      System.out.println("GPA is 4.0")                               
+      break;                
+   case "B":        
+      System.out.println("GPA is 3.0")                               
+      break;                      
+   case "C":       
+      System.out.println("GPA is 2.0")                               
+      break;                      
+   case "D":      
+      System.out.println("GPA is 1.0")                               
+      break;                       
+   default:         
+      System.out.println("GPA is 0.0")                               
+      break; 
+}
 
 
 /***************************************************************
