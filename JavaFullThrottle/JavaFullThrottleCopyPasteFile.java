@@ -128,6 +128,20 @@ switch (grade) {
       break; 
 }
 
+int grade = 77;
+
+String letterGrade = switch (grade / 10) {
+   case 9, 10 -> "A";
+   case 8 -> "B";
+   case 7 -> "C";
+   case 6 -> "D";
+   default -> {
+      System.out.printf("Failing grade: %d%n", grade);
+      yield "F";
+   }
+};
+
+System.out.printf("Letter grade: %s%n", letterGrade);   
 
 /***************************************************************
 * Chapter 6: Methods
