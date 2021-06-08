@@ -15,5 +15,4 @@ This course is based on content from our book <a href="https://amzn.to/30ZQVw0" 
 
 The authors and publisher of this book have used their best efforts in preparing this book. These efforts include the development, research, and testing of the theories and programs to determine their effectiveness. The authors and publisher make no warranty of any kind, expressed or implied, with regard to these programs or to the documentation contained in this book. The authors and publisher shall not be liable in any event for incidental or consequential damages in connection with, or arising out of, the furnishing, performance, or use of these programs.
  
-
-
+* June 8, 2021 presentation—https://learning.oreilly.com/attend/java-full-throttle-with-paul-deitel-a-one-day-code-intensive-java-standard-edition-presentation/0636920162582/0636920054938/
