@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Java15_text_blocks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Java15_text_blocks.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
