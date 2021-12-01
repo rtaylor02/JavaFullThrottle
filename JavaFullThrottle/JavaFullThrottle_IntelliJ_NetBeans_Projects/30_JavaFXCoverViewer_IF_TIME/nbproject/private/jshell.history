@@ -1,7 +1,0 @@
-EXPRESSION#>new Book()
-VAR#>Book b
-CMD#>/imports
-CMD#>/classpath
-CMD#>/classpath .
-VAR#>Book b
-EXPRESSION#>b = new Book()
