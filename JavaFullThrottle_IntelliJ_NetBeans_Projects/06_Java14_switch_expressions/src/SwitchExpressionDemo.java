@@ -27,7 +27,6 @@ public class SwitchExpressionDemo {
          9. More future language enhancements: https://openjdk.java.net/projects/amber/
       */
       
-      
       String letterGrade = switch (grade / 10) {
          case 9, 10 -> "A";
          case 8 -> "B";
@@ -41,10 +40,17 @@ public class SwitchExpressionDemo {
       
       System.out.printf("Letter grade: %s%n", letterGrade);  
       
+      /*
+         Pattern Matching switch: https://openjdk.java.net/jeps/406 
+         
+      */
+      
       Rectangle r = new Rectangle(10, 5);
       Circle c = new Circle(10);
-      System.out.printf("Perimeter of r: %f%n", getPerimeter(r));  
-      System.out.printf("Perimeter of c: %f%n", getPerimeter(c));  
+      System.out.printf("\n(if version) Perimeter of r: %f%n", getPerimeter(r));  
+      System.out.printf("(if version) Perimeter of c: %f%n", getPerimeter(c));  
+      System.out.printf("\n(switch version) Perimeter of r: %f%n", getPerimeterSwitch(r));  
+      System.out.printf("(switch version) Perimeter of c: %f%n", getPerimeterSwitch(c));  
    }
    
    public static double getPerimeter(Shape shape) throws IllegalArgumentException {
@@ -56,6 +62,14 @@ public class SwitchExpressionDemo {
          throw new IllegalArgumentException("Unrecognized shape");
       }
    }  
+   
+   public static double getPerimeterSwitch(Shape shape) throws IllegalArgumentException {
+      return switch (shape) {
+         case Rectangle r -> 2 * r.length() + 2 * r.width();
+         case Circle c -> 2 * c.radius() * Math.PI;
+         default -> throw new IllegalArgumentException("Unrecognized shape");
+      };
+   }
 }
 
 /**************************************************************************

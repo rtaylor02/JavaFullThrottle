@@ -1,4 +1,0 @@
-Circle
-SwitchExpressionDemo
-Shape
-Rectangle
